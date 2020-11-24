@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tinh tong phan tu cua mang</title>
+</head>
+<body>
+<script>
+    let arr = [1,2,3,4,5,6,7,8,9,];
+    let size= arr.length;
+
+    function sumArr(arr,size) {
+        let sum = 1;
+        for (let i = 0; i < size; i++) {
+            sum *= arr[i];
+        }
+        return sum;
+    }
+    document.write("tong cua mang la : "+ sumArr(arr,size));
+
+</script>
+</body>
+</html>
